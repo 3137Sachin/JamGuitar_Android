@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:text="Tips"
+        android:textColor="#FFEB3B"
+        android:textSize="30dp"
+        android:typeface="normal"
+        />
+
+    <EditText
+        android:layout_width="322dp"
+        android:layout_height="282dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="1. Practice! Practice!! Practice!!!
+                                                2. Use Metronome to play each note.
+                            3. I used padlock on my fingers (Pinky or Index) and do spiderwalk exercise
+                               4. Play 4/4 time signature. Each beep per note = quarter note. Two notes in between
+two beep = 8th note and 4 notes in between 2 beeps = 16th note.
+5. Start from lower tempo and begin with Pentatonic scales and start improvising!"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

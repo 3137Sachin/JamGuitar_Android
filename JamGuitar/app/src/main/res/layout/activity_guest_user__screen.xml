@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuestUser_Screen"
+
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--Image Button for Song #1-->
+    <ImageButton
+        android:id="@+id/playsong1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/c_major_play"/>
+
+    <!--Empty text view to gap the image buttons-->
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="10dp"
+    android:text="">
+    </TextView>
+
+    <!--Image Button for Song #2-->
+    <ImageButton
+        android:id="@+id/playsong2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/d_minor_play"/>
+
+    <!--Empty text view to gap the image buttons-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:text="">
+    </TextView>
+
+    <!--Image Button for Song #3-->
+    <ImageButton
+        android:id="@+id/playsong3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/e_minor2_play"/>
+
+    <!--Empty text view to gap the image buttons-->
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:text="">
+    </TextView>
+
+    <!--Email Input Space!-->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="       Request Artists Here "
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+    <!--A spinner to choose different song genres!-->
+    <Spinner
+        android:id="@+id/spinnerGenres"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/genres"
+        android:textColor="#000000"
+        android:background="#CDDC39"
+        android:autofillHints="Select Genre"/>
+
+    <!--A button to add different songs in the database!-->
+    <Button
+        android:id="@+id/buttonAddArtist"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Upload "
+        android:textSize="13dp"/>
+
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:text="">
+    </TextView>
+    <!--Logout Button!-->
+    <Button
+        android:id="@+id/LogOut"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Log Out" />
+</LinearLayout>

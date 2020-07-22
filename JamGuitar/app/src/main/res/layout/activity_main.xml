@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--Logo !-->
+    <ImageView
+        android:layout_width="316dp"
+        android:layout_height="117dp"
+        android:src="@drawable/logo"
+        tools:ignore="MissingConstraints" />
+
+    <!--Text!-->
+    <TextView
+        android:layout_width="169dp"
+        android:layout_height="36dp"
+        android:text=" Jam Guitar "
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        >
+    </TextView>
+
+    <!--Text!-->
+    <TextView
+        android:layout_width="233dp"
+        android:layout_height="34dp"
+        android:text=" Please Login or Use Guest Login "
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        >
+    </TextView>
+
+    <!--Email input space!-->
+    <EditText
+        android:id="@+id/Email1"
+        android:layout_width="246dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"/>
+
+    <!--Password input space!-->
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_width="246dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        />
+
+    <!--SignUp Button!-->
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:text="Sign Up" />
+
+    <!--Guest Login Button!-->
+    <Button
+        android:id="@+id/guest1"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
+        android:text="Guest Login" />
+
+    <!--SignIn Text/Button!-->
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="307dp"
+        android:layout_height="41dp"
+        android:text="Already have and Account? Please Sign in here."
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn_Screen"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--Logo !-->
+    <ImageView
+        android:layout_width="316dp"
+        android:layout_height="117dp"
+        android:src="@drawable/logo">
+    </ImageView>
+
+    <!--Text!-->
+    <TextView
+        android:layout_width="169dp"
+        android:layout_height="36dp"
+        android:text=" Jam Guitar "
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        >
+    </TextView>
+
+    <!--Text !-->
+    <TextView
+        android:layout_width="233dp"
+        android:layout_height="34dp"
+        android:text="                  Please Login "
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        >
+
+    </TextView>
+
+    <!--Email Input Space!-->
+    <EditText
+        android:id="@+id/Email2"
+        android:layout_width="246dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+    <!--Password Input space !-->
+    <EditText
+        android:id="@+id/Password2"
+        android:layout_width="246dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+    <!--SignIn Button!-->
+    <Button
+        android:id="@+id/login"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:text="Sign In" />
+
+    <!--Sign-Up text/Button!-->
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="307dp"
+        android:layout_height="41dp"
+        android:text="         Not registered? Please Sign Up here."
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="">
+    </TextView>
+
+    <!--Forgot Password text/Button!-->
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="212dp"
+        android:layout_height="54dp"
+        android:text="            Forgot Password? "
+        android:textColor="#FBFBFB" />
+
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registered_User_Screen"
+    android:background="@drawable/background"
+    android:id="@+id/drawer_layout"
+    tools:openDrawer="start">
+
+
+
+    <!--Everything sorted in a Linear Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- This is the Toolbar function-->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp" />
+
+        <!--A frame layout-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="520dp"
+            android:id="@+id/fragment_container">
+        </FrameLayout>
+
+        <!--All the 5 songs sorted in a Linear Layout Horizontally-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <!--Image Button for Song #1-->
+            <ImageButton
+                android:id="@+id/playsong1"
+                android:layout_width="82dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:background="@drawable/c_major_play" />
+
+            <!--Image Button for Song #2-->
+            <ImageButton
+                android:id="@+id/playsong2"
+                android:layout_width="82dp"
+                android:layout_height="75dp"
+                android:background="@drawable/d_minor_play"
+                android:layout_gravity="center"/>
+
+            <!--Image Button for Song #3-->
+            <ImageButton
+                android:id="@+id/playsong4"
+                android:layout_width="82dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:background="@drawable/e_minor_play" />
+
+            <!--Image Button for Song #4-->
+            <ImageButton
+                android:id="@+id/playsong5"
+                android:layout_width="82dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:background="@drawable/b_minor_play" />
+
+            <!--Image Button for Song #5-->
+            <ImageButton
+                android:id="@+id/playsong3"
+                android:layout_width="81dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:background="@drawable/e_minor2_play" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--This is the whole navigation pane function using fragments -->
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/nav_view"
+        app:menu="@menu/menu_list"
+        app:headerLayout="@layout/navigation_header"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

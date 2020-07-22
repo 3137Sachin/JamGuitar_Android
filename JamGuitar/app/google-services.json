@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "409121861524",
+    "firebase_url": "https://jam-guitar-1e65b.firebaseio.com",
+    "project_id": "jam-guitar-1e65b",
+    "storage_bucket": "jam-guitar-1e65b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409121861524:android:d2c83c22ae8c37bc91e981",
+        "android_client_info": {
+          "package_name": "com.example.jamguitar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409121861524-pqd51i8lai668mgr60pffs32r54smmip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDjCnPqMXU4iGYHKe2KUQQyoXQ66B6YlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409121861524-pqd51i8lai668mgr60pffs32r54smmip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

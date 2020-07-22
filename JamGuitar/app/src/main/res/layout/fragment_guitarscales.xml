@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 most useful scales"
+        android:textColor="#F8F7F0"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="Minor Pentatonic Scale in A"
+        android:textColor="#FFEB3B"
+        android:textSize="30dp"
+        android:typeface="normal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:text=""
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/a_minor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="Major Scale in B"
+        android:textColor="#FFEB3B"
+        android:textSize="30dp"
+        android:typeface="normal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:text=""
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:src="@drawable/major"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:text=""
+        android:textColor="#FFEB3B"
+        android:textSize="25dp"
+        android:typeface="normal"
+        />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="170dp"
+        android:text="*1. The root note is highlighted and should be played with the backing track
+corresponding the root note. 2. You can find the root note and use the scale with
+different backing tracks with different root scale.
+3. This applies to every song in the world. 4. Happy Playing!"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:typeface="normal"
+        />
+
+</LinearLayout>

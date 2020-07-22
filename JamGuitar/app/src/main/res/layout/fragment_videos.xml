@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <!--Everything sorted in a Linear Layout-->
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!--Image Button that opens a video Link-->
+    <ImageButton
+        android:id="@+id/open"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:onClick="openonelink"
+        android:background="@drawable/jackvid01"/>
+
+        <!--Text view to make an empty gap between the two-->
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:text="">
+        </TextView>
+
+        <!--Image Button that opens a video Link-->
+    <ImageButton
+        android:id="@+id/open2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:onClick="opentwolink"
+        android:background="@drawable/jackvid02"/>
+</LinearLayout>
+
+</LinearLayout>

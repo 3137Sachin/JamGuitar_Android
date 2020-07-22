@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Jam Guitar</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <array name="genres">
+        <item>Rock</item>
+        <item>Ballad</item>
+        <item>Soul</item>
+        <item>Blues</item>
+    </array>
+
+</resources>
