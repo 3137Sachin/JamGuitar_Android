@@ -1,6 +1,6 @@
 ![123123](https://user-images.githubusercontent.com/43224388/88148416-2d2a5900-cbc4-11ea-947a-be79fa3d09db.PNG)
 
-# Jam_Guitar_Android
+# Jam Guitar for Android
 
 ## Objective
 The main idea of this application is to provide guidelines and backing music to practice and expand a guitarist’s vocabulary. Be it a beginner or an enthusiast who wants to explore the foundation the creating guitar solo and improvising. This app can help set him/her on the right track. 
