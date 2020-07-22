@@ -15,11 +15,9 @@ I started playing guitar when I was around 10 years old. I started with basics a
 
 ## Main Features
 -	Lots of backing tracks.
--	Lots of guitar scales and guidelines i.e. major, minor.
--	Licks playthrough videos.
--	Display chords and Scales for the track.
+-	Guitar scales, tips and guidelines i.e. major, minor.
+-	Licks playthrough videos (Youtube link).
 -	Including backing tracks from Jack Thammarat.
--	With over 50 scales and tips to master the guitar!
 
 ## ScreenShots
 ![Capture](https://user-images.githubusercontent.com/43224388/88147731-3a931380-cbc3-11ea-9b5d-2359a0d4ba99.PNG)
