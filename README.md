@@ -20,5 +20,15 @@ I started playing guitar when I was around 10 years old. I started with basics a
 -	Including backing tracks from Jack Thammarat.
 
 ## ScreenShots
-![Capture](https://user-images.githubusercontent.com/43224388/88147731-3a931380-cbc3-11ea-9b5d-2359a0d4ba99.PNG)
+![123](https://user-images.githubusercontent.com/43224388/88254099-b2bc1080-cc79-11ea-9d43-fac5781d5616.PNG)
+
+![234](https://user-images.githubusercontent.com/43224388/88254100-b485d400-cc79-11ea-9c50-338d1734e39d.PNG)
+
+![345](https://user-images.githubusercontent.com/43224388/88254101-b51e6a80-cc79-11ea-9fb9-12e2147c3443.PNG)
+
+![456](https://user-images.githubusercontent.com/43224388/88254103-b64f9780-cc79-11ea-956f-4f2edeb438a1.PNG)
+
+![54675](https://user-images.githubusercontent.com/43224388/88254106-bbace200-cc79-11ea-9cb9-e79ae5e67382.PNG)
+
+![5468765](https://user-images.githubusercontent.com/43224388/88254108-bcde0f00-cc79-11ea-94fa-f75fe0557baf.PNG)
 
